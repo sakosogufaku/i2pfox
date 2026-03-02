@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # i2pfox-install.sh — I2Pfox: The I2P Privacy Browser
+# Version: 0.1.0-alpha
 # =============================================================================
 # Based on Tor Browser (hardened Firefox ESR) + i2pd router
 # Every piece of this script is auditable — no binary blobs, no curl|bash.
@@ -1448,6 +1449,7 @@ main() {
     echo "  ██║ ███████╗██║     ██║     ╚██████╔╝██╔╝ ██╗"
     echo "  ╚═╝ ╚══════╝╚═╝     ╚═╝      ╚═════╝ ╚═╝  ╚═╝"
     echo -e "${N}  The I2P Privacy Browser — based on Tor Browser"
+    echo -e "  v0.1.0-alpha"
     echo ""
 
     TB_DIR=""
